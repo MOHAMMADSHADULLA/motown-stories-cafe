@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Motown Stories Café – Financial District, Hyderabad</title>
+  <meta name="description" content="Motown Stories Café — Hyderabad's iconic automotive-themed café in the Financial District. Coffee, food, vintage bikes. Open daily till midnight." />
+  <link rel="icon" type="image/png" href="images/logo.png" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.3/dist/locomotive-scroll.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-scroll-container id="main-container">
+
+  <!-- ── NAVBAR ─────────────────────────────────────────── -->
+  <nav class="navbar" id="navbar">
+    <a href="#hero" class="nav-logo">
+      <img src="images/logo.png" alt="Motown Stories Café" />
+    </a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#contact">Visit Us</a></li>
+    </ul>
+    <div class="nav-right">
+      <a class="btn btn-primary nav-reserve"
+         href="https://www.google.com/maps/reserve/v/dine/c/EG1-0uGa4tk"
+         target="_blank" rel="noopener">Reserve a Table</a>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile drawer -->
+  <div class="nav-drawer" id="nav-drawer">
+    <a href="#about"   class="drawer-link">About</a>
+    <a href="#menu"    class="drawer-link">Menu</a>
+    <a href="#gallery" class="drawer-link">Gallery</a>
+    <a href="#reviews" class="drawer-link">Reviews</a>
+    <a href="#contact" class="drawer-link">Visit Us</a>
+    <a class="btn btn-primary drawer-cta"
+       href="https://www.google.com/maps/reserve/v/dine/c/EG1-0uGa4tk"
+       target="_blank" rel="noopener">Reserve a Table</a>
+    <a class="btn btn-outline drawer-cta"
+       href="https://wa.me/919160018420?text=Hi%2C%20I%27d%20like%20to%20enquire%20about%20Motown%20Stories%20Cafe"
+       target="_blank" rel="noopener">💬 WhatsApp Enquiry</a>
+  </div>
+
+  <!-- ── HERO ──────────────────────────────────────────── -->
+  <section class="hero" id="hero" data-scroll-section>
+    <div class="hero-bg" data-scroll data-scroll-speed="-5"
+         style="background-image:url('images/gallery4.png')"></div>
+    <div class="hero-vignette"></div>
+    <div class="hero-content" data-scroll data-scroll-speed="1.2">
+      <img src="images/logo.png" class="hero-logo" alt="Motown Stories Café" />
+      <h1 class="hero-headline">
+        <span class="hl-top">Your Drive</span>
+        <span class="hl-bottom">Starts Here.</span>
+      </h1>
+      <p class="hero-tagline">Hyderabad's most iconic automotive café</p>
+      <div class="hero-meta">
+        <span class="hero-badge">★ 4.3 · 6,719 reviews</span>
+        <span class="hero-badge">₹200–400 per person</span>
+        <span class="hero-badge">Open till 12 AM</span>
+      </div>
+      <div class="hero-actions">
+        <a class="btn btn-primary"
+           href="https://www.google.com/maps/reserve/v/dine/c/EG1-0uGa4tk"
+           target="_blank" rel="noopener">Reserve a Table</a>
+        <a class="btn btn-outline" href="#menu">Explore Menu</a>
+      </div>
+    </div>
+    <div class="hero-bottom-fade"></div>
+    <div class="scroll-cue" aria-hidden="true">
+      <div class="scroll-cue-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ─────────────────────────────────────────── -->
+  <section class="section about" id="about" data-scroll-section>
+    <div class="about-text reveal">
+      <span class="tag">Our Story</span>
+      <h2>A Garage. A Dream.<br /><em>A Café.</em></h2>
+      <p>
+        Motown Stories Café is Hyderabad's most unique automotive-themed dining experience,
+        nestled in the heart of Financial District, Gachibowli. Step into a world of vintage
+        motorcycles, rustic bikes, bold graffiti murals, and warm Edison bulbs — where
+        petrolheads and food lovers come together.
+      </p>
+      <ul class="feature-list">
+        <li><span>🏍️</span> Vintage cars &amp; motorcycles on display</li>
+        <li><span>☕</span> Specialty coffee &amp; handcrafted drinks</li>
+        <li><span>🎨</span> Graffiti murals &amp; garage art throughout</li>
+        <li><span>🅿️</span> Ample free parking</li>
+        <li><span>🌙</span> Open daily till midnight</li>
+      </ul>
+      <div class="about-cta">
+        <a class="btn btn-primary" href="#visit">Find Us</a>
+        <a class="btn btn-outline"
+           href="https://maps.app.goo.gl/UssQRrRSzbEJCsZw9"
+           target="_blank" rel="noopener">Google Maps ↗</a>
+      </div>
+    </div>
+    <div class="about-visual reveal reveal-delay">
+      <div class="about-img-frame">
+        <img src="images/gallery5.png" alt="Driven — Motown Stories Café wall mural" loading="lazy" />
+      </div>
+      <div class="about-stat-card">
+        <div class="stat"><span class="stat-num">4.3★</span><span class="stat-lbl">Rating</span></div>
+        <div class="stat-div"></div>
+        <div class="stat"><span class="stat-num">6,719</span><span class="stat-lbl">Reviews</span></div>
+        <div class="stat-div"></div>
+        <div class="stat"><span class="stat-num">12 AM</span><span class="stat-lbl">Closes</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── MENU ──────────────────────────────────────────── -->
+  <section class="menu-section" id="menu" data-scroll-section>
+    <div class="menu-inner">
+
+      <div class="section-header reveal">
+        <span class="tag">Eat &amp; Drink</span>
+        <h2>Our Full Menu</h2>
+        <p>Inspired by the open road — every item tells a story.</p>
+      </div>
+
+      <!-- 5 category tabs -->
+      <div class="tab-bar reveal" role="tablist">
+        <button class="tab active" data-tab="coffee"    role="tab" aria-selected="true"  aria-controls="tab-coffee">☕ Coffee &amp; Tea</button>
+        <button class="tab"        data-tab="mocktails" role="tab" aria-selected="false" aria-controls="tab-mocktails">🍹 Mocktails</button>
+        <button class="tab"        data-tab="milkshakes"role="tab" aria-selected="false" aria-controls="tab-milkshakes">🥛 Milkshakes</button>
+        <button class="tab"        data-tab="food"      role="tab" aria-selected="false" aria-controls="tab-food">🥪 Food</button>
+        <button class="tab"        data-tab="desserts"  role="tab" aria-selected="false" aria-controls="tab-desserts">🍰 Desserts</button>
+      </div>
+
+      <!-- Coffee & Tea -->
+      <div class="tab-panel" id="tab-coffee" role="tabpanel">
+        <div class="menu-sub-label">☕ Hot Coffee</div>
+        <div class="menu-grid">
+          <div class="mc"><span class="mc-icon">☕</span><div class="mc-body"><h3>Espresso</h3><p>Bold house blend — single or double shot</p><b>₹180</b></div></div>
+          <div class="mc"><span class="mc-icon">☕</span><div class="mc-body"><h3>Cappuccino</h3><p>Double shot, velvety milk, light foam</p><b>₹260</b></div></div>
+          <div class="mc"><span class="mc-icon">☕</span><div class="mc-body"><h3>Latte</h3><p>Smooth espresso with steamed milk art</p><b>₹280</b></div></div>
+          <div class="mc"><span class="mc-icon">🍫</span><div class="mc-body"><h3>Hot Chocolate</h3><p>Rich Belgian chocolate, warm &amp; creamy</p><b>₹270</b></div></div>
+          <div class="mc"><span class="mc-icon">☕</span><div class="mc-body"><h3>Cold Brew</h3><p>12-hour steeped, smooth &amp; low acidity</p><b>₹300</b></div></div>
+        </div>
+        <div class="menu-sub-label">🫖 Dip Teas <span class="sub-price">₹150</span></div>
+        <div class="tea-pill-grid">
+          <span>Assam</span><span>Masala</span><span>Earl Grey</span><span>Sulaimani</span>
+          <span>Darjeeling</span><span>Chamomile</span><span>Oriental Sencha</span>
+          <span>Green Sencha</span><span>English Breakfast</span><span>Jasmine Blossom</span>
+          <span>Winter Dream</span><span>Rosehip Hibiscus</span>
+        </div>
+        <div class="menu-sub-label">🍵 Kettle Teas <span class="sub-price">₹225</span></div>
+        <div class="tea-pill-grid">
+          <span>Chamomile Green</span><span>Tulsi Green</span><span>Peppermint</span>
+          <span>Lavender</span><span>Apple Cinnamon</span><span>Peach</span>
+          <span>Indian Spice</span><span>Lemongrass</span><span>Sanjeevani</span>
+        </div>
+      </div>
+
+      <!-- Mocktails -->
+      <div class="tab-panel hidden" id="tab-mocktails" role="tabpanel">
+        <div class="menu-sub-label">🍋 Lemonades <span class="sub-price">₹200 · Yuzu ₹225</span></div>
+        <div class="menu-grid">
+          <div class="mc"><span class="mc-icon">🍋</span><div class="mc-body"><h3>Sweet &amp; Salt</h3><p>Classic lemonade with a savoury twist</p><b>₹200</b></div></div>
+          <div class="mc"><span class="mc-icon">🫐</span><div class="mc-body"><h3>Raspberry</h3><p>Tangy raspberry lemonade</p><b>₹200</b></div></div>
+          <div class="mc"><span class="mc-icon">🍇</span><div class="mc-body"><h3>Pomegranate</h3><p>Rich ruby-red pomegranate lemonade</p><b>₹200</b></div></div>
+          <div class="mc"><span class="mc-icon">🌿</span><div class="mc-body"><h3>Mint</h3><p>Fresh mint &amp; lemon — cool &amp; crisp</p><b>₹200</b></div></div>
+          <div class="mc"><span class="mc-icon">⚡</span><div class="mc-body"><h3>Electric</h3><p>Bright blue layered lemonade</p><b>₹200</b></div></div>
+          <div class="mc"><span class="mc-icon">🌶️</span><div class="mc-body"><h3>Masala Pan</h3><p>Spiced masala lemonade with a kick</p><b>₹200</b></div></div>
+          <div class="mc"><span class="mc-icon">🍈</span><div class="mc-body"><h3>Tamarind</h3><p>Sweet &amp; sour tamarind lemonade</p><b>₹200</b></div></div>
+          <div class="mc"><span class="mc-icon">🥝</span><div class="mc-body"><h3>Kiwi</h3><p>Tropical kiwi lemonade</p><b>₹200</b></div></div>
+          <div class="mc"><span class="mc-icon">🍊</span><div class="mc-body"><h3>Yuzu</h3><p>Japanese yuzu citrus lemonade</p><b>₹225</b></div></div>
+        </div>
+        <div class="menu-sub-label">🧊 Iced Teas <span class="sub-price">₹225</span></div>
+        <div class="tea-pill-grid">
+          <span>Classic Lemon</span><span>Green Apple</span><span>Mint Ice</span>
+          <span>Strawberry</span><span>Passion</span>
+        </div>
+        <div class="menu-sub-label">🧊 Slush <span class="sub-price">₹225</span></div>
+        <div class="tea-pill-grid">
+          <span>Melon Strawberry</span><span>Guava</span><span>Mango</span>
+          <span>Cool Blue</span><span>Orange</span>
+        </div>
+      </div>
+
+      <!-- Milkshakes -->
+      <div class="tab-panel hidden" id="tab-milkshakes" role="tabpanel">
+        <div class="menu-sub-label">🥛 Milkshakes <span class="sub-price">₹225 · Premium ₹250</span></div>
+        <div class="menu-grid">
+          <div class="mc"><span class="mc-icon">🍓</span><div class="mc-body"><h3>Strawberry</h3><p>Classic creamy strawberry shake</p><b>₹225</b></div></div>
+          <div class="mc"><span class="mc-icon">🥭</span><div class="mc-body"><h3>Mango</h3><p>Fresh mango blended to perfection</p><b>₹225</b></div></div>
+          <div class="mc"><span class="mc-icon">🫐</span><div class="mc-body"><h3>Blackcurrant</h3><p>Deep &amp; tart blackcurrant shake</p><b>₹225</b></div></div>
+          <div class="mc"><span class="mc-icon">🍦</span><div class="mc-body"><h3>Ice Cream</h3><p>Pure vanilla ice cream milkshake</p><b>₹225</b></div></div>
+          <div class="mc"><span class="mc-icon">🍈</span><div class="mc-body"><h3>Guava</h3><p>Tropical guava — smooth &amp; sweet</p><b>₹225</b></div></div>
+          <div class="mc"><span class="mc-icon">🌸</span><div class="mc-body"><h3>Vanilla</h3><p>Classic vanilla milkshake</p><b>₹225</b></div></div>
+          <div class="mc"><span class="mc-icon">🍮</span><div class="mc-body"><h3>Butterscotch</h3><p>Rich caramel-butterscotch blend</p><b>₹225</b></div></div>
+          <div class="mc"><span class="mc-icon">🍫</span><div class="mc-body"><h3>Chocolate</h3><p>Dark chocolate milkshake</p><b>₹225</b></div></div>
+          <div class="mc"><span class="mc-icon">🥛</span><div class="mc-body"><h3>Thandai</h3><p>Rose &amp; saffron-spiced Thandai shake</p><b>₹250</b></div></div>
+          <div class="mc"><span class="mc-icon">🌹</span><div class="mc-body"><h3>Rose</h3><p>Floral rose milkshake</p><b>₹250</b></div></div>
+        </div>
+      </div>
+
+      <!-- Food -->
+      <div class="tab-panel hidden" id="tab-food" role="tabpanel">
+        <div class="menu-sub-label">🥪 Bites &amp; Snacks</div>
+        <div class="menu-grid">
+          <div class="mc"><span class="mc-icon">🥪</span><div class="mc-body"><h3>Tandoori Paneer Sandwich</h3><p>Spiced paneer, grilled to perfection</p><b>₹250</b></div></div>
+          <div class="mc"><span class="mc-icon">🧀</span><div class="mc-body"><h3>Cheese Chilli Toast</h3><p>Melted cheese, green chilli, toasted bread</p><b>₹215</b></div></div>
+          <div class="mc"><span class="mc-icon">🧄</span><div class="mc-body"><h3>Cheese Garlic Bread</h3><p>Butter garlic loaf with melted cheese</p><b>₹165</b></div></div>
+          <div class="mc"><span class="mc-icon">🥪</span><div class="mc-body"><h3>Cheese Melt Pesto Sandwich</h3><p>Pesto sauce, melted cheese, sourdough</p><b>₹250</b></div></div>
+          <div class="mc"><span class="mc-icon">🥐</span><div class="mc-body"><h3>Veg Puff</h3><p>Flaky pastry, spiced vegetable filling</p><b>₹75</b></div></div>
+          <div class="mc"><span class="mc-icon">🍕</span><div class="mc-body"><h3>Mini Pizza</h3><p>Golden crust, tomato sauce &amp; cheese</p><b>₹175</b></div></div>
+          <div class="mc"><span class="mc-icon">🥪</span><div class="mc-body"><h3>Paneer Akkoori Sandwich</h3><p>Spiced scrambled paneer, soft bread</p><b>₹250</b></div></div>
+          <div class="mc"><span class="mc-icon">🥐</span><div class="mc-body"><h3>Plain Croissant</h3><p>Classic buttery French pastry</p><b>₹120</b></div></div>
+          <div class="mc"><span class="mc-icon">🍫</span><div class="mc-body"><h3>Chocolate Croissant</h3><p>Flaky croissant, dark chocolate fill</p><b>₹150</b></div></div>
+          <div class="mc"><span class="mc-icon">🍩</span><div class="mc-body"><h3>Chocolate Donut</h3><p>Soft glazed donut, chocolate topping</p><b>₹100</b></div></div>
+          <div class="mc"><span class="mc-icon">🍌</span><div class="mc-body"><h3>Banana Walnut Bread</h3><p>Moist banana loaf, crunchy walnuts</p><b>₹100</b></div></div>
+          <div class="mc"><span class="mc-icon">🍎</span><div class="mc-body"><h3>Apple Pie</h3><p>Classic American-style apple pie slice</p><b>₹150</b></div></div>
+        </div>
+      </div>
+
+      <!-- Desserts -->
+      <div class="tab-panel hidden" id="tab-desserts" role="tabpanel">
+        <div class="menu-sub-label">🍰 Cakes, Brownies &amp; More</div>
+        <div class="menu-grid">
+          <div class="mc"><span class="mc-icon">🧁</span><div class="mc-body"><h3>Chocolate Muffin</h3><p>Rich chocolate chip muffin</p><b>₹90</b></div></div>
+          <div class="mc"><span class="mc-icon">🫐</span><div class="mc-body"><h3>Blueberry Muffin</h3><p>Packed with juicy blueberries</p><b>₹90</b></div></div>
+          <div class="mc"><span class="mc-icon">🍯</span><div class="mc-body"><h3>Honey Walnut Tea Cake</h3><p>Sweet honey cake with walnut crunch</p><b>₹140</b></div></div>
+          <div class="mc"><span class="mc-icon">🍎</span><div class="mc-body"><h3>Apple Muffin</h3><p>Fresh apple pieces in soft muffin</p><b>₹90</b></div></div>
+          <div class="mc"><span class="mc-icon">☕</span><div class="mc-body"><h3>Coffee Tea Cake</h3><p>Coffee-infused moist tea cake</p><b>₹140</b></div></div>
+          <div class="mc"><span class="mc-icon">🫐</span><div class="mc-body"><h3>Blueberry Tea Cake</h3><p>Light cake bursting with blueberries</p><b>₹140</b></div></div>
+          <div class="mc"><span class="mc-icon">🍪</span><div class="mc-body"><h3>Biscoff Brownie</h3><p>Fudgy brownie with Biscoff swirl</p><b>₹170</b></div></div>
+          <div class="mc"><span class="mc-icon">🎂</span><div class="mc-body"><h3>Black Forest Swiss Roll</h3><p>Cherries &amp; cream in a soft sponge roll</p><b>₹130</b></div></div>
+          <div class="mc"><span class="mc-icon">🫐</span><div class="mc-body"><h3>Blueberry Cheesecake</h3><p>Creamy NY-style, blueberry topping</p><b>₹220</b></div></div>
+          <div class="mc"><span class="mc-icon">🍫</span><div class="mc-body"><h3>Choco Chip Brownie</h3><p>Dense fudge brownie loaded with chips</p><b>₹170</b></div></div>
+          <div class="mc"><span class="mc-icon">🧁</span><div class="mc-body"><h3>Choco Lava Cupcake</h3><p>Warm cupcake with molten centre</p><b>₹100</b></div></div>
+          <div class="mc"><span class="mc-icon">🥐</span><div class="mc-body"><h3>Korean Cream Cheese Bun</h3><p>Pillowy bun, cream cheese filling</p><b>₹130</b></div></div>
+          <div class="mc"><span class="mc-icon">🍰</span><div class="mc-body"><h3>Lamington</h3><p>Australian sponge, chocolate &amp; coconut</p><b>₹150</b></div></div>
+          <div class="mc"><span class="mc-icon">🫚</span><div class="mc-body"><h3>Nutella Cheesecake</h3><p>Creamy cheesecake, Nutella topping</p><b>₹250</b></div></div>
+          <div class="mc"><span class="mc-icon">🍫</span><div class="mc-body"><h3>Nutella Brownie</h3><p>Fudgy brownie swirled with Nutella</p><b>₹170</b></div></div>
+          <div class="mc"><span class="mc-icon">🥜</span><div class="mc-body"><h3>Peanut Brownie</h3><p>Peanut butter &amp; chocolate brownie</p><b>₹170</b></div></div>
+          <div class="mc"><span class="mc-icon">🍫</span><div class="mc-body"><h3>Triple Chocolate Sauce</h3><p>Three-layer chocolate indulgence</p><b>₹170</b></div></div>
+          <div class="mc"><span class="mc-icon">🌰</span><div class="mc-body"><h3>Walnut Brownie</h3><p>Classic brownie with toasted walnuts</p><b>₹170</b></div></div>
+        </div>
+      </div>
+
+    </div><!-- /menu-inner -->
+  </section>
+
+  <!-- ── GALLERY ────────────────────────────────────────── -->
+  <section class="gallery-section" id="gallery" data-scroll-section>
+    <div class="gallery-inner">
+      <div class="section-header reveal">
+        <span class="tag">Inside Motown</span>
+        <h2>Gallery</h2>
+        <p>Every corner is a photo waiting to happen.</p>
+      </div>
+
+      <div class="gallery-grid">
+
+        <!-- Row 1 -->
+        <button class="gi gi-large" data-delay="0"
+                data-lightbox="images/gallery4.png"
+                data-caption="Your Drive Starts Here — Harley at the bar"
+                aria-label="View: Harley Davidson at the bar">
+          <img src="images/gallery4.png" alt="Vintage Harley Davidson parked at the Motown café counter" loading="lazy" />
+          <div class="gi-overlay"><span>Your Drive Starts Here 🏍️</span></div>
+        </button>
+
+        <button class="gi" data-delay="80"
+                data-lightbox="images/gallery9.png"
+                data-caption="Route 66 — Motown's iconic memorabilia wall"
+                aria-label="View: Route 66 memorabilia wall">
+          <img src="images/gallery9.png" alt="Route 66 signs and framed vintage posters on a rusty corrugated wall" loading="lazy" />
+          <div class="gi-overlay"><span>Route 66</span></div>
+        </button>
+
+        <button class="gi" data-delay="140"
+                data-lightbox="images/gallery11.png"
+                data-caption="Sip It. Repeat. — Coffee at Motown"
+                aria-label="View: Coffee at Motown">
+          <img src="images/gallery11.png" alt="Two specialty coffee drinks on a café table with the Motown bar in the background" loading="lazy" />
+          <div class="gi-overlay"><span>Sip It. Repeat.</span></div>
+        </button>
+
+        <!-- Row 2 -->
+        <button class="gi" data-delay="0"
+                data-lightbox="images/gallery5.png"
+                data-caption="Driven — The garage spirit wall mural"
+                aria-label="View: Driven wall mural">
+          <img src="images/gallery5.png" alt="DRIVEN neon sign and motorcycle mural on brick wall" loading="lazy" />
+          <div class="gi-overlay"><span>Driven</span></div>
+        </button>
+
+        <button class="gi gi-tall" data-delay="60"
+                data-lightbox="images/gallery13.png"
+                data-caption="The Upper Deck — Motown's mezzanine lounge"
+                aria-label="View: Mezzanine lounge">
+          <img src="images/gallery13.png" alt="Motown Stories Café upper deck mezzanine with Union Jack cushion and vintage wall art" loading="lazy" />
+          <div class="gi-overlay"><span>The Upper Deck</span></div>
+        </button>
+
+        <button class="gi" data-delay="120"
+                data-lightbox="images/gallery10.jpg"
+                data-caption="Baked Fresh — Donut, croissant & banana bread"
+                aria-label="View: Baked goods">
+          <img src="images/gallery10.jpg" alt="Chocolate donut, croissant and banana walnut bread at Motown Stories Café" loading="lazy" />
+          <div class="gi-overlay"><span>Baked Fresh Daily</span></div>
+        </button>
+
+        <!-- Row 3 -->
+        <button class="gi gi-wide" data-delay="0"
+                data-lightbox="images/hero.png"
+                data-caption="Main Hall — Motown Stories Café"
+                aria-label="View: Main hall">
+          <img src="images/hero.png" alt="Motown Stories Café main hall with graffiti murals and exposed wooden beams" loading="lazy" />
+          <div class="gi-overlay"><span>Main Hall</span></div>
+        </button>
+
+        <button class="gi" data-delay="80"
+                data-lightbox="images/gallery8.jpg"
+                data-caption="The Garage Bar — Custom stools and choppers"
+                aria-label="View: Garage bar">
+          <img src="images/gallery8.jpg" alt="Custom bar stools and a vintage chopper at Motown Stories Café" loading="lazy" />
+          <div class="gi-overlay"><span>The Garage Bar</span></div>
+        </button>
+
+        <!-- Row 4 -->
+        <button class="gi" data-delay="0"
+                data-lightbox="images/gallery1.png"
+                data-caption="The Space — Industrial beams and garage bikes"
+                aria-label="View: Interior overview">
+          <img src="images/gallery1.png" alt="Motown interior showing exposed wooden trusses, hanging bikes and vintage clocks" loading="lazy" />
+          <div class="gi-overlay"><span>The Space</span></div>
+        </button>
+
+        <button class="gi" data-delay="60"
+                data-lightbox="images/gallery12.jpg"
+                data-caption="Quiet Corner — Vintage table and brick wall"
+                aria-label="View: Cozy corner">
+          <img src="images/gallery12.jpg" alt="Cozy corner with vintage wooden chairs, round table and exposed brick wall" loading="lazy" />
+          <div class="gi-overlay"><span>Quiet Corner</span></div>
+        </button>
+
+        <button class="gi" data-delay="120"
+                data-lightbox="images/gallery2.jpg"
+                data-caption="Industrial Corner — Tyre seats and chain chains"
+                aria-label="View: Industrial corner">
+          <img src="images/gallery2.jpg" alt="Industrial-style seating corner with tyre motifs and chain details" loading="lazy" />
+          <div class="gi-overlay"><span>Industrial Corner</span></div>
+        </button>
+
+        <button class="gi" data-delay="160"
+                data-lightbox="images/gallery3.png"
+                data-caption="Supercar Showcase — Outside Motown"
+                aria-label="View: Supercars outside">
+          <img src="images/gallery3.png" alt="Porsche 911, Jaguar F-Type and Mercedes parked outside Motown Stories Café" loading="lazy" />
+          <div class="gi-overlay"><span>Supercar Showcase 🚗</span></div>
+        </button>
+
+      </div><!-- /gallery-grid -->
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+    <div class="lb-backdrop" id="lb-backdrop"></div>
+    <button class="lb-close" id="lb-close" aria-label="Close">✕</button>
+    <button class="lb-arrow lb-prev" id="lb-prev" aria-label="Previous image">&#8249;</button>
+    <button class="lb-arrow lb-next" id="lb-next" aria-label="Next image">&#8250;</button>
+    <figure class="lb-figure">
+      <img id="lb-img" src="" alt="" />
+      <figcaption id="lb-caption" class="lb-caption"></figcaption>
+    </figure>
+  </div>
+
+  <!-- ── REVIEWS ────────────────────────────────────────── -->
+  <section class="reviews-section" id="reviews" data-scroll-section>
+    <div class="reviews-inner">
+
+      <div class="section-header reveal">
+        <span class="tag">Google Reviews</span>
+        <h2>What Guests Say</h2>
+      </div>
+
+      <div class="rating-bar reveal">
+        <div class="rating-score">
+          <span class="rs-num">4.3</span>
+          <span class="rs-stars" aria-label="4.3 out of 5">★★★★☆</span>
+          <span class="rs-count">6,719 Google reviews</span>
+        </div>
+        <a class="btn btn-outline"
+           href="https://maps.app.goo.gl/UssQRrRSzbEJCsZw9"
+           target="_blank" rel="noopener">View All on Google Maps ↗</a>
+      </div>
+
+      <div class="reviews-grid">
+
+        <article class="rcard reveal">
+          <div class="rcard-header">
+            <div class="rc-avatar">SD</div>
+            <div class="rc-meta">
+              <strong>Sachin Deshmukh</strong>
+              <p>Local Guide · 100 reviews · 484 photos · 5 months ago</p>
+            </div>
+            <div class="rc-stars" aria-label="5 out of 5">★★★★★</div>
+          </div>
+          <blockquote>
+            "Absolutely loved the vibe here! If you're a motorhead or just appreciate a cool, rustic aesthetic,
+            the vintage cars, bikes, and graffiti make for a great atmosphere. It's a fantastic spot in Hyderabad
+            to chill with friends late into the night."
+          </blockquote>
+          <span class="verified-tag">✓ Verified Google Review</span>
+        </article>
+
+        <article class="rcard reveal reveal-delay">
+          <div class="rcard-header">
+            <div class="rc-avatar">RR</div>
+            <div class="rc-meta">
+              <strong>Ravindra Reddy</strong>
+              <p>230 reviews · 1,309 photos · 4 months ago</p>
+            </div>
+            <div class="rc-stars" aria-label="5 out of 5">★★★★★</div>
+          </div>
+          <blockquote>
+            "Motown Stories Café in Hyderabad is a refreshing spot that blends great ambience with genuinely friendly
+            service. The décor feels creative and cozy, making it perfect for relaxed conversations or quiet work time.
+            Their food is flavorful."
+          </blockquote>
+          <span class="verified-tag">✓ Verified Google Review</span>
+        </article>
+
+        <article class="rcard reveal reveal-delay2">
+          <div class="rcard-header">
+            <div class="rc-avatar">CF</div>
+            <div class="rc-meta">
+              <strong>Cba Fitness</strong>
+              <p>Local Guide · 121 reviews · 208 photos · 6 months ago</p>
+            </div>
+            <div class="rc-stars" aria-label="4 out of 5">★★★★☆</div>
+          </div>
+          <blockquote>
+            "Visited Motown Cafe recently and had a decent experience overall. The vibe of the place is good —
+            aesthetically pleasing and great for Instagram pictures and videos."
+          </blockquote>
+          <span class="verified-tag">✓ Verified Google Review</span>
+        </article>
+
+      </div>
+
+      <aside class="review-insight reveal">
+        <span class="ri-icon" aria-hidden="true">🤖</span>
+        <div>
+          <strong>Google AI Summary</strong>
+          <p>People say this café offers a unique automotive-themed vibe with vintage cars and bikes,
+          making it a great spot for car and motorcycle enthusiasts. They also highlight the delicious
+          coffee, ample free parking and friendly, attentive staff.</p>
+          <em>Source: Google Maps AI-generated summary from 6,719 reviews</em>
+        </div>
+      </aside>
+
+    </div>
+  </section>
+
+  <!-- ── CONTACT ────────────────────────────────────────── -->
+  <section class="section contact-section" id="contact" data-scroll-section>
+    <div class="contact-wrap reveal">
+
+      <div class="contact-info">
+        <span class="tag">Find Us</span>
+        <h2>Visit Motown Stories Café</h2>
+        <ul class="contact-list">
+          <li><span>📍</span><p>Kapil Towers, Opposite ICICI Bank, Nanakram Guda, ISB Rd, Financial District, Gachibowli, Hyderabad 500032</p></li>
+          <li><span>🕛</span><p>Open Daily · Closes 12 AM</p></li>
+          <li><span>📞</span><p><a href="tel:+919160018420">+91 91600 18420</a></p></li>
+          <li><span>💰</span><p>₹200–400 per person</p></li>
+          <li><span>🍽️</span><p>Dine-in · Takeaway · No-contact Delivery</p></li>
+        </ul>
+        <div class="contact-actions">
+          <a class="btn btn-primary"
+             href="https://www.google.com/maps/reserve/v/dine/c/EG1-0uGa4tk"
+             target="_blank" rel="noopener">🗓️ Reserve a Table</a>
+          <a class="btn btn-wa"
+             href="https://wa.me/919160018420?text=Hi%2C%20I%27d%20like%20to%20enquire%20about%20Motown%20Stories%20Cafe"
+             target="_blank" rel="noopener">💬 WhatsApp</a>
+          <a class="btn btn-outline" href="tel:+919160018420">📞 Call Now</a>
+        </div>
+      </div>
+
+      <div class="map-embed">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.8!2d78.3386714!3d17.4221106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9488fde35c89%3A0x8e23c060df7a001e!2sMotown%20Stories%20Cafe!5e0!3m2!1sen!2sin!4v1"
+          title="Motown Stories Café on Google Maps"
+          width="100%" height="420" style="border:0;"
+          allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── FOOTER ─────────────────────────────────────────── -->
+  <footer class="footer" data-scroll-section>
+    <img src="images/logo.png" alt="Motown Stories Café" class="footer-logo" />
+    <p>© 2026 Motown Stories Café · Financial District, Hyderabad</p>
+    <p class="footer-sub">Built for petrolheads &amp; coffee lovers</p>
+  </footer>
+
+  <!-- ── MOBILE STICKY BAR ──────────────────────────────── -->
+  <div class="mobile-bar" id="mobile-bar" aria-label="Quick actions">
+    <a href="#menu" class="mbar-item" aria-label="View menu">
+      <span aria-hidden="true">📋</span><label>Menu</label>
+    </a>
+    <a href="https://wa.me/919160018420?text=Hi%2C%20I%27d%20like%20to%20enquire%20about%20Motown%20Stories%20Cafe"
+       class="mbar-item mbar-wa" target="_blank" rel="noopener" aria-label="WhatsApp enquiry">
+      <span aria-hidden="true">💬</span><label>WhatsApp</label>
+    </a>
+    <a href="https://www.google.com/maps/reserve/v/dine/c/EG1-0uGa4tk"
+       class="mbar-item mbar-reserve" target="_blank" rel="noopener" aria-label="Reserve a table">
+      <span aria-hidden="true">🗓️</span><label>Reserve</label>
+    </a>
+    <a href="tel:+919160018420" class="mbar-item" aria-label="Call us">
+      <span aria-hidden="true">📞</span><label>Call</label>
+    </a>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.3/dist/locomotive-scroll.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
